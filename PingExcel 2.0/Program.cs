@@ -10,6 +10,8 @@ namespace PingExcel_2._0
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello, World!");
+            Console.ReadLine();
         }
     }
 }
