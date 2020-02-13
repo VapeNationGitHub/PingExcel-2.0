@@ -41,9 +41,9 @@ namespace PingExcel_2._0
             Excel.Workbook ObjWorkBook = ObjWorkExcel.Workbooks.Open(@"" + path + "", Type.Missing, Type.Missing, Type.Missing, Type.Missing, Type.Missing);
             Excel.Worksheet ObjWorkSheet = (Excel.Worksheet)ObjWorkBook.Sheets[1];
 
-            for (j = 6; j <= 8; j++)
+            for (j = 1; j <= 2; j++)
             {
-                for (i = 3; i <= N; i++)
+                for (i = 1; i <= N; i++)
                 {
                     string pinger = ObjWorkSheet.Cells[i, j].Text;
                     if (ObjWorkSheet.Rows[i].Text == null)
